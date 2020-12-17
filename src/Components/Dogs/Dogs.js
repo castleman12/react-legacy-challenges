@@ -1,7 +1,11 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import DogIndex from './DogIndex'
  
 const Dogs = () => {
+
+
+
 
   return (
     <Container className="App">
@@ -17,6 +21,8 @@ const Dogs = () => {
         <li>Have a button that fetches a new image</li>
         <li>Make sure to include some good practice error handling</li>
       </ul>
+      <DogIndex/>
+      
       <hr />
     </Container>
   );
